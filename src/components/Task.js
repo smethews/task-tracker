@@ -1,4 +1,4 @@
-import { FaTimes } from 'react-icons/fa'
+import { FaBeer, FaPencilAlt, FaCalendarTimes } from "react-icons/fa";
 
 const Task = ({ task, onDelete, onToggle }) => {
     return ( <
@@ -14,10 +14,10 @@ const Task = ({ task, onDelete, onToggle }) => {
         onClick = {
             () => onDelete(task.id)
         }
-        />  <
-        /h3> <
-        p > { task.day } < /p> <
-        /div>
+        />  < /
+        h3 > <
+        p > { task.day } < /p> < /
+        div >
     )
 }
 
