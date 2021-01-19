@@ -85,7 +85,8 @@ const App = () => {
         )
     }
 
-    return ( < Router Router >
+    return ( <
+        Router >
         <
         div className = 'container' >
         <
@@ -93,7 +94,7 @@ const App = () => {
             () => setShowAddTask(!showAddTask)
         }
         showAdd = { showAddTask }
-        />  <
+        /> <
         Route path = '/'
         exact render = {
             (props) => ( < > {
@@ -113,7 +114,7 @@ const App = () => {
         /> <
         Footer / >
         <
-        /div> <
+        /div>  <
         /Router>
     )
 }
